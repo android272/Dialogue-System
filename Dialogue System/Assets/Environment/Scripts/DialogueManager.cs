@@ -26,7 +26,7 @@ public class DialogueManager : MonoBehaviour {
 
 	public void DisplayNextSentence () {
 		StopAllCoroutines();
-		StartCoroutine(TypeSentence(currentDialogueNode.DialogueText));
+		StartCoroutine(TypeSentence(currentDialogueNode.dialogueText));
 		DisplayOptionButtons();
 	}
 
